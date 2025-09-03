@@ -30,9 +30,8 @@ const HowitWorks = () => {
           <Arrows />
           <h3>Compare Options</h3>
           <p>
-            Review and compare coverage options
-            <br />
-            prices, and benefits side by side
+            Review and compare coverage options prices, and benefits side by
+            side
           </p>
         </Infocard>
 
@@ -78,18 +77,20 @@ const Infocard = styled.div`
   align-items: center;
   justify-content: center;
 
-  gap: 16px;
+  gap: 14px;
 
   h3 {
     color: black;
     margin-bottom: 8px;
   }
   p {
-    color: #64748b;
+    /* color: #64748b; */
+    color: #485a72;
     line-height: 1.5;
     text-align: center;
     max-width: 280px;
-    margin: 0 auto;
+    //margin: 0 auto;
+    font-size: 15px;
   }
 `;
 
